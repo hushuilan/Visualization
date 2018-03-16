@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="glm::tmat4x4&lt;*&gt;">
+    <DisplayString Condition="value[0].x==1.0 &amp;&amp; value[0].y==0.0 &amp;&amp; value[0].z==0.0 &amp;&amp; value[0].w==0.0 &amp;&amp; value[1].x==0.0 &amp;&amp; value[1].y==1.0 &amp;&amp; value[1].z==0.0 &amp;&amp; value[1].w==0.0 &amp;&amp; value[2].x==0.0 &amp;&amp; value[2].y==0.0 &amp;&amp; value[2].z==1.0 &amp;&amp; value[2].w==0.0 &amp;&amp; value[3].x==0.0 &amp;&amp; value[3].y==0.0 &amp;&amp; value[3].z==0.0 &amp;&amp; value[3].w==1.0">Identity Matrix</DisplayString>
+    <DisplayString Condition="value[0].x==1.0 &amp;&amp; value[0].y==0.0 &amp;&amp; value[0].z==0.0 &amp;&amp; value[0].w==0.0 &amp;&amp; value[1].x==0.0 &amp;&amp; value[1].y==1.0 &amp;&amp; value[1].z==0.0 &amp;&amp; value[1].w==0.0 &amp;&amp; value[2].x==0.0 &amp;&amp; value[2].y==0.0 &amp;&amp; value[2].z==1.0 &amp;&amp; value[2].w==0.0 &amp;&amp; (value[3].x!=0.0 || value[3].y!=0.0 || value[3].z!=0.0) &amp;&amp; value[3].w==1.0">Translation Matrix {{{value[3].x}, {value[3].y}, {value[3].z}}}</DisplayString>
+  </Type>
+  <Type Name="glm::tmat3x3&lt;*&gt;">
+    <DisplayString Condition="value[0].x==1.0 &amp;&amp; value[0].y==0.0 &amp;&amp; value[0].z==0.0 &amp;&amp; value[1].x==0.0 &amp;&amp; value[1].y==1.0 &amp;&amp; value[1].z==0.0 &amp;&amp; value[2].x==0.0 &amp;&amp; value[2].y==0.0 &amp;&amp; value[2].z==1.0 &amp;&amp;">Identity Matrix</DisplayString>
+    <DisplayString Condition="value[0].x==1.0 &amp;&amp; value[0].y==0.0 &amp;&amp; value[0].z==0.0 &amp;&amp; value[1].x==0.0 &amp;&amp; value[1].y==1.0 &amp;&amp; value[1].z==0.0 &amp;&amp; (value[2].x!=0.0 || value[2].y!=0.0) &amp;&amp; value[2].z==1.0">Translation Matrix {{{value[2].x}, {value[2].y}, {value[2].z}}}</DisplayString>
+  </Type>
+</AutoVisualizer>
